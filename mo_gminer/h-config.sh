@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
--z $CUSTOM_PASS && CUSTOM_PASS=x
+test -z $CUSTOM_PASS && CUSTOM_PASS=x
 local conf="--user=\"$CUSTOM_TEMPLATE\" --pass=\"$CUSTOM_PASS\""
 
 # merge user config options into main config
