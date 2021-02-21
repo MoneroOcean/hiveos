@@ -1,7 +1,7 @@
 mo_gminer is HiveOS custom GPU miner package based on https://github.com/MoneroOcean/meta-miner
 miner wrapper over gminer (https://github.com/develsoftware/GMinerRelease)
-that allows auto switching to the most profitable GPU algo
-if used to mine to MoneroOcean (moneroocean.stream) pool.
+that allows auto switching to the most profitable GPU algo if used to mine to
+MoneroOcean (moneroocean.stream) pool and get paid in XMR note.
 
 List of supported algos:
 
